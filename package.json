@@ -1,0 +1,32 @@
+{
+  "name": "consolelog",
+  "version": "1.0.0",
+  "description": "Augmented console.log with plugins like logstash or other",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "mocha",
+    "webpack": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "logstash",
+    "http",
+    "console",
+    "log"
+  ],
+  "author": "ATD-Xampy",
+  "license": "ISC",
+  "files": [
+    "lib/**/*.js",
+    "scripts/**/*.js"
+  ],
+  "module": "lib/main.js",
+  "react-native": "lib/main.js",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "cross-fetch": "^4.0.0",
+    "esm": "^3.2.25",
+    "mocha": "^10.2.0",
+    "webpack": "^5.88.2"
+  }
+}
